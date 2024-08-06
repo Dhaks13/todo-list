@@ -92,10 +92,11 @@ button:hover{
 
 .note-add{
   display: flex;
+  flex-direction: column;
+  gap: 10px;
   justify-content: space-evenly;
   align-items: center;
   width: 50%;
-  height: 50px;
   padding: 10px;
   margin: 10px auto;
   background-color: var(--background-start-rgb);
@@ -140,6 +141,22 @@ button:hover{
     background-color: var(--text-field-background-rgb);
     color: var(--text-field-rgb);
   }
+}
+
+.todo-data{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 15%;
+  padding: 10px;
+  margin:  35px auto 0 auto;
+}
+
+.todo-items{
+  background-color: var(--background-start-rgb);
+  color: var(--font-rgb);
+  border: solid 1px var(--border-rbg);
+  border-radius: 5px;
 }
 
 footer{
